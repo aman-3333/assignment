@@ -134,7 +134,7 @@ export default class ProductController {
 
         }
         else if (accountInfo.usertype == "Admin" && status == "update user"){
-            userInfo = await User.findOneAndUpdate({ _id: userId, isDeleted: false },body)
+            userInfo = await User.updateMany({ _id: userId, isDeleted: false }, body)
         }
         return userInfo
 
