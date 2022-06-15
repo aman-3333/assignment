@@ -1,0 +1,6 @@
+{
+  "mongodb": "mongodb+srv://MidBazarAman:MidBazar@2021@cluster0.dqngt.mongodb.net/test",
+  "host": "localhost",
+  "env": "dev",
+  "port": "4412"
+}
